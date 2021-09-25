@@ -1,0 +1,8 @@
+[run]
+include = ../utilities/*
+
+[report]
+exclude_lines = pragma: no cover      
+
+[html]
+directory = ../OutputFiles/
