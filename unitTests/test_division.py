@@ -6,3 +6,4 @@ def test_div(numerator, denominator, result):
     division = Division()
     assert( division.div(numerator, denominator) == result)
 
+test_div(1,1,1)
