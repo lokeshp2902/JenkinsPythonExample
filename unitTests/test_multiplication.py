@@ -1,7 +1,7 @@
 from utilities.Multiplication import Multiplication
 import pytest
 
-@pytest.mark.parametrize("operand1, operand2, result",[(1, 2, 2),(2, 2, 4)])
+@pytest.mark.parametrize("operand1, operand2, result",[(1, 2, 2)])
 def test_mul(operand1, operand2, result):
     multiplication = Multiplication()
     assert( multiplication.mul(operand1, operand2) == result)
