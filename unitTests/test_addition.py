@@ -3,7 +3,7 @@ import pytest
 
 
 
-@pytest.mark.parametrize("operand1, operand2, result",[(1, 2, 3)])
+@pytest.mark.parametrize("operand1, operand2, result",[(1, 2, 3),(0,0,0)])
 def test_add(operand1, operand2, result):
     addition = Addition()
     assert( addition.add(operand1, operand2) == result )
