@@ -3,7 +3,7 @@ import pytest
 
 
 
-@pytest.mark.parametrize("operand1, operand2, result",[(1, 2, 3),(2,2,4)])
+@pytest.mark.parametrize("operand1, operand2, result",[(1, 2, 3),(2,2,4),(1,1,1)])
 def test_add(operand1, operand2, result):
     addition = Addition()
     print("abcdef")
