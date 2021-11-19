@@ -2,7 +2,7 @@ from utilities.Addition import Addition
 import pytest
 
 
-@pytest.mark.parametrize("operand1, operand2, result",[(1, 2, 3),(1,1,2)])
+@pytest.mark.parametrize("operand1, operand2, result",[(1, 2, 3),(1,1,0)])
 def test_add(operand1, operand2, result):
     addition = Addition()
     print("abcdf")
