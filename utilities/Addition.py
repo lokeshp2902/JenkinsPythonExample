@@ -1,7 +1,7 @@
 class Addition:
 
     def add(self, operand1, operand2):
-        return operand1 * operand2
+        return operand1 + operand2
 
     def addAll(self, numbers):
         sum = 0
